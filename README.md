@@ -9,7 +9,7 @@ The "zcmd stack" of containers is defined and managed in the **"stack" folder**.
 
  * stack/stack.env <-- This is where we define our stack environment values.
  * stack/docker-compose.yml <-- This where we define the services of our stack.
- * stack/custom <-- By convention, we place DEV, STAGE, PROD specific confguration files into this folder.
+ * stack/custom <-- By convention, we place DEV, STAGE, PROD specific configuration files into this folder.
  
 The runtime content of our stack services is maintained in the **"runtime-shared-files" folder**.
 
