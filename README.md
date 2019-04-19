@@ -5,13 +5,13 @@ Demonstrate some features of the ZCMD framework by providing a sample
 
 CONVENTIONS
 ===========
-The "zcmd stack" of containers is defined and managed in the "stack" folder.
+The "zcmd stack" of containers is defined and managed in the **"stack" folder**.
 
- # stack/stack.env <-- This is where we define our stack environment values.
- # stack/docker-compose.yml <-- This where we define the services of our stack.
- # stack/custom <-- By convention, we place DEV, STAGE, PROD specific confguration files into this folder.
+ * stack/stack.env <-- This is where we define our stack environment values.
+ * stack/docker-compose.yml <-- This where we define the services of our stack.
+ * stack/custom <-- By convention, we place DEV, STAGE, PROD specific confguration files into this folder.
  
-The runtime content of our stack services is maintained in the "runtime-shared-files" folder.
+The runtime content of our stack services is maintained in the **"runtime-shared-files" folder**.
 
 AVAILABLE SERVICES IN THIS DEMO STACK
 =====================================
